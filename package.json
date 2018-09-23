@@ -1,0 +1,25 @@
+{
+  "name": "monster-stories-web",
+  "version": "1.0.0",
+  "description": "> :mushroom: A random story generator featuring cute monsters",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "./node_modules/browserify/bin/cmd.js main.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikepic/monster-stories-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikepic/monster-stories-web/issues"
+  },
+  "homepage": "https://github.com/vikepic/monster-stories-web#readme",
+  "devDependencies": {
+    "browserify": "^16.2.2"
+  },
+  "dependencies": {
+    "monster-stories": "^1.0.1"
+  }
+}
